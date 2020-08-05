@@ -1,0 +1,36 @@
+.product-form label,
+.product-form input {
+  display: grid;
+}
+
+input.form-control {
+  border: 1px solid #88b3d8;
+  border-radius: 1px;
+  outline: none;
+  height: 30px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+button {
+  font: inherit;
+  border: none;
+  background: #4f84ca;
+  height: 40px;
+  padding: 0 10px;
+  color: #fff;
+  margin-top: 1rem;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3565a5;
+}
+
+form.product-form {
+  width: 20rem;
+  max-width: 90%;
+  margin: auto;
+}
